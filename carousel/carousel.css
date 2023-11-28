@@ -43,8 +43,9 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  min-width: 100%;
-  height: 32rem;
+  min-widt <a class="navbar-brand" href="index.html">
+  <img id="imagem_logo " src="imagens/Logo_pequena.png" alt="logo" />
+</a>32rem;
 }
 
 
@@ -69,7 +70,9 @@ body {
 
 /* Featurettes
 ------------------------- */
-
+<a class="navbar-brand" href="index.html">
+<img id="imagem_logo " src="imagens/Logo_pequena.png" alt="logo" />
+</a>
 
 
 /* Thin out the marketing headings */
@@ -101,4 +104,8 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+#footer{
+   background-color: #09457d;
 }
