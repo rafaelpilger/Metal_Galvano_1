@@ -11,15 +11,19 @@ body {
 
 .navbar {
   background-color: #09457d;
-  display: grid;
+  /*display: grid;*/
+  justify-content: left;
   grid-column: 100px 1;
+}
+.navbar h1{
+  width: 4vw;
 }
 
 .collapse {
   display: grid;
 }
 .navbar-brand img{
-  width: 9%;
+  width: 100%;
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -115,7 +119,7 @@ body {
   max-width:600px; 
   height:auto; 
   float:none; 
-  margin:auto; 
+  margin: 5vw auto 3vw auto;
   padding:1em; 
   margin-bottom:1em; 
   border-radius:6px; 
@@ -200,3 +204,6 @@ body {
 .formularioContato button.btn-envia:hover { 
   background-color:#333; 
 }
+
+
+
