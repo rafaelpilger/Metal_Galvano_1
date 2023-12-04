@@ -8,7 +8,9 @@ body {
   color: #5a5a5a;
 
 }
-
+.text-muted {
+  color: none;
+}
 .navbar {
   background-color: #09457d;
   /*display: grid;*/
@@ -26,6 +28,9 @@ body {
   width: 100%;
 }
 
+.conteudo{
+  margin: 45px;
+}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
