@@ -46,7 +46,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 46rem;
 }
 .carousel-item > img {
   position: absolute;
@@ -84,6 +84,11 @@ body {
   line-height: 1;
   /* rtl:remove */
   letter-spacing: -.05rem;
+}
+
+.engenheiros{
+  width: 630px;
+height: 380px;
 }
 
 
